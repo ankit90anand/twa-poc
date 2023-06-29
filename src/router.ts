@@ -24,6 +24,11 @@ export const router = new Router({
         render: () => html`<app-home></app-home>`
       },
       {
+        path:/twa-poc,
+        title: 'Home',
+        render: () => html`<app-home></app-home>`
+      },
+      {
         path: `/twa-pocabout`,
         title: 'About',
         plugins: [
