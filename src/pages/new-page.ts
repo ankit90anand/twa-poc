@@ -4,14 +4,12 @@ import { customElement, property } from 'lit/decorators.js';
 @customElement('new-page')
 export class AppSettings extends LitElement {
     static styles = [
-        css`
-          <CSS for your page goes here>
-        `
+        css``
     ];
 
     render() {
         return html`
-          <HTML for your page goes here>
+          <div>Hello World</div>
         `;
     }
 }
