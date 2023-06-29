@@ -24,7 +24,7 @@ export const router = new Router({
         render: () => html`<app-home></app-home>`
       },
       {
-        path: `/twa-pocabout/`,
+        path: `/twa-pocabout`,
         title: 'About',
         plugins: [
           lazy(() => import('./pages/app-about/app-about.js')),
@@ -32,7 +32,7 @@ export const router = new Router({
         render: () => html`<app-about></app-about>`
       },
       {
-        path: '/new-page/',
+        path: '/new-page',
         title: 'new page',
         plugins: [
           lazy(() => import('./pages/new-page.js')),
