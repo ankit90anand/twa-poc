@@ -15,7 +15,7 @@ import { title } from '@thepassle/app-tools/router/plugins/title.js';
 import './pages/app-home.js';
 
 const baseURL: string = (import.meta as any).env.BASE_URL;
-
+console.debug(baseURL);
 export const router = new Router({
     routes: [
       {
@@ -30,6 +30,14 @@ export const router = new Router({
           lazy(() => import('./pages/app-about/app-about.js')),
         ],
         render: () => html`<app-about></app-about>`
+      },
+      {
+        path: '/new-page',
+        title: 'new page',
+        plugins: [
+          lazy(() => import('./pages/new-page.js')),
+        ],
+        render: () => html`<new-page></new-page>`
       }
     ]
   });
