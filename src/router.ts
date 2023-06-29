@@ -19,12 +19,12 @@ console.debug(baseURL);
 export const router = new Router({
     routes: [
       {
-        path:/twa-poc/,
+        path:`/twa-poc/`,
         title: 'Home',
         render: () => html`<app-home></app-home>`
       },
       {
-        path:/twa-poc,
+        path:`/twa-poc`,
         title: 'Home',
         render: () => html`<app-home></app-home>`
       },
