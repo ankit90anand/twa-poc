@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.ankit90anand.twa",
-        "sha256_cert_fingerprints": ["11:38:A4:75:31:C1:75:73:57:45:D2:D5:6A:E9:22:2F:60:FA:69:B1:D8:F2:A3:1D:37:59:88:6C:64:45:BA:2C"]
-      }
-    }]
